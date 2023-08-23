@@ -128,6 +128,6 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'myprofile', 'static')]
+    BASE_DIR / 'static',
+]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
